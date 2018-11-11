@@ -1,6 +1,5 @@
 FROM ubuntu:14.04
-MAINTAINER Alexandre Cunha <alex@moddevices.com>
-ENV DEBIAN_FRONTEND noninteractive
+MAINTAINER Alexandre Cunha <ale@moddevices.com>
 
 # update and upgrade system
 RUN apt-get update && apt-get -qy upgrade && apt-get clean
