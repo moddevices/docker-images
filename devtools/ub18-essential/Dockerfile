@@ -6,6 +6,6 @@ RUN apt-get update && apt-get -qy upgrade && apt-get clean
 
 # install basic build tools
 RUN apt-get install -qy build-essential ca-certificates \
-    ssh git subversion curl bzip2 nano unzip
+    ssh git subversion curl bzip2 nano unzip sudo
 
 CMD ["bash"]
